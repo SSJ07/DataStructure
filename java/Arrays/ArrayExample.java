@@ -18,7 +18,7 @@ public class ArrayExample {
 		int[] x3;
 		
 		
-//	     int[] a = new int[]; // compiler will give array . It's require size when array creation.
+//	     int[] a = new int[]; // compiler will give error . It's require size when array creation.
 	     int[] b = new int[0]; //It's legal array with size zero.
 	     int[] c = new int[-3]; // compiler time is fine.  Runtime exception will occure. NegativeArraySizeException
 
