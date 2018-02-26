@@ -3,15 +3,17 @@
 '''
 
 class Node:
-    
+    ''' This is node store data and link of next node '''
+
     def __init__(self, value):
         self.value = value
         self.next = None
+
     def __repr__(self):
         return str(self.value)
         
 class SingleLinkedList:
-    
+    ''' Single linked list data structure '''
     def __init__(self):
         self.root = None
         
